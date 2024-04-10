@@ -1,0 +1,37 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.website-info{
+  margin-left: 15px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 13px;
+  color: white;
+}
+.text-links{
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 200;
+}
+.website-links{
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.image{
+  width: 25px;
+  cursor: pointer;
+}
