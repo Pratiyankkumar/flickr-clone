@@ -1,5 +1,14 @@
-body {
+/* body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   background-image: url(pexels-bri-schneiter-346529.jpg);
   background-size: 100%;
+} */
+body {
+  /* Initial background image */
+  background-image: url('pexels-bri-schneiter-346529.jpg');
+  background-size: cover;
+  background-position: center;
+  transform: background-image 1s ease-in-out;
+  position: relative; /* Ensure proper positioning of text overlay */
 }
+

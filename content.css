@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 180px;
+  z-index: 200;
 }
 .heading{
   color: white;

@@ -9,6 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 }
 .logo-image{
   width: 70px;
@@ -24,9 +25,10 @@
   border-radius: 3px;
   outline: none;
   background-color: rgba(255,255,255,0.7);
+  padding-left: 40px;
+  font-family: Roboto;
 }
-.input::placeholder{
-  padding-left: 20px;
+.input::placeholder{ 
   font-family: Roboto;
   color: rgb(120,120,120);
   font-size: 13px;
@@ -51,4 +53,15 @@
 .login-button{
   background-color: transparent;
   color: white;
+}
+.input-container{
+  position: relative;
+  width: 800px;
+}
+.search-icon{
+  position: fixed;
+  width: 22px;
+  top: 0;
+  margin-left: 10px;
+  margin-top: 23px;
 }
