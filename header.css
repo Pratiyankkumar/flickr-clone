@@ -11,15 +11,38 @@
   justify-content: space-between;
   z-index: 100;
 }
+.search-icon2{
+  width: 24px;
+  height: 25px;
+  opacity: 0;
+  cursor: pointer;
+}
+@media (max-width: 1158px) {
+  .search-icon2{
+    width: 28px;
+    height: 28px;
+    opacity: 1;
+  }
+  .input-container{
+    opacity: 0;
+  }
+}
+
 .logo-image{
   width: 70px;
   margin-left: 15px;
 }
 .sign-buttons{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-right: 15px;
+  align-items: center;
 }
+
 .input{
-  width: 800px;
+  width: 0px;
   height: 30px;
   border: 0 solid transparent;
   border-radius: 3px;
@@ -27,7 +50,15 @@
   background-color: rgba(255,255,255,0.7);
   padding-left: 40px;
   font-family: Roboto;
+  display: flex;
+  flex: 1;
 }
+.input-container{
+  max-width: 800px;
+  display: flex;
+  flex: 1;
+}
+
 .input::placeholder{ 
   font-family: Roboto;
   color: rgb(120,120,120);
