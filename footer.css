@@ -37,3 +37,39 @@
   cursor: pointer;
 }
 
+@media (max-width: 400px) {
+
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+  }
+
+  .website-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+  
+  .text-links {
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 200;
+    margin-right: 15px; /* Add some spacing between links */
+    margin-bottom: 10px; /* Add margin at the bottom of each link */
+  }
+  .website-links{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
