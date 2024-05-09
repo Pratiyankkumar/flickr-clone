@@ -51,3 +51,41 @@
   color: white;
   font-weight: 500;
 }
+@media (max-width: 400px) {
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 250px;
+    z-index: 200;
+  }
+  .heading{
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .para-container{
+    display: none;
+  }
+  .image-credit{
+    display: none;
+  }
+  .start{
+    font-family: Roboto;
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+    border: 0 solid transparent;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  
+}
